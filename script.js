@@ -2,7 +2,7 @@
 var myDropDown = document.querySelector('.menu1');
 var btn = document.querySelector('.drop-btn');
 function myFunction() {
-    myDropDown.classList.contains("hidden")? myDropDown.classList.remove("hidden"):myDropDown.classList.add("hidden");
+    myDropDown.classList.toggle("hidden");
 }
 
 window.addEventListener("resize", function() {
